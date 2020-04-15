@@ -1,5 +1,6 @@
+package Java3Hw1;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Box<T extends Fruit> {
     private ArrayList<T> box = new ArrayList<>();

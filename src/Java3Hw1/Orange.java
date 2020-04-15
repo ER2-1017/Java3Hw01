@@ -1,3 +1,5 @@
+package Java3Hw1;
+
 public class Orange extends Fruit {
     @Override
     float getWeight() {
