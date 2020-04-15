@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Java3Hw3 {
     public static void main(String[] args) throws Exception {
-        //Чтение и вывод файла в консоль
+        //Чтение файла и вывод в консоль
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream("./src/Java3Hw3/Hw3Array.txt"));
         byte[] bytes = new byte[1];
         for (int i = 0; i < bytes.length; i++) {
