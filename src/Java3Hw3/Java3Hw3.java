@@ -15,7 +15,7 @@ public class Java3Hw3 {
         for (byte b : bytes) {
             System.out.println(b + " ");
         }
-        //Склейка нескольких файлов в один
+        //Склейка файлов в один
         ArrayList<FileInputStream> arrayList = new ArrayList<>();
         arrayList.add(new FileInputStream("./src/Java3Hw3/Hw3Array.txt"));
         arrayList.add(new FileInputStream("./src/Java3Hw3/Hw3Array.txt"));
