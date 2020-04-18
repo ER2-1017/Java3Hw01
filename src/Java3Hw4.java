@@ -4,7 +4,6 @@ public class Java3Hw4 {
     private static Object lock = new Object();
 
     public static void main(String[] args) {
-
         new Thread(() -> printChar(chars[0], chars[2])).start();
         new Thread(() -> printChar(chars[1], chars[0])).start();
         new Thread(() -> printChar(chars[2], chars[1])).start();
