@@ -27,7 +27,7 @@ public class Hw6Main {
             System.arraycopy(arr, n + 1, arr1, 0, arr1.length);
             return arr1;
         } else {
-            throw new RuntimeException("В массиве нет числа 4");
+            throw new RuntimeException("В массиве отсутствует число 4");
         }
     }
     public static boolean Task2 (int[] arr) {
